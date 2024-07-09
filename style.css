@@ -1,12 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --primeira-cor: #9595;
+    --segunda-cor: #0a3871;
+    --terceira-cor: #495057;
+    --quarta-cor: #072B61;
+    --quinta-cor: #eeeeee;
+
+    --fonteprimaria: "Inter", sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0 40px;
+}
+.imagem__logo{
 
-body {
-    background-color: #e5e5e5;
 }
-main{
-    
+.body {
+    box-sizing: border-box;
+    background-color: var(--primeira-cor)
 }
+.conteudo{
+    padding: 0px 80px 72px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.conteudo__texto__botoes{
+    padding: 80px 40px 72px 80px;
+}
+.texto{
+    margin: 80px 80px;
+    padding: 80px 0px 395px 80px;
+}
+.input__texto{
+    width: 680px;
+    height: 288px;
+    font-family: var(--fonteprimaria);
+    font-size: 32px;
+    font-weight: 150;
+    color: var(--segunda-cor);
+}
+
+.alerta{
+    padding: 16px 0px 32px 80px;
+    font-family: var(--fonteprimaria);
+    font-size: 12px;
+    font-weight: 150;
+    color: var(--terceira-cor);
+}
+.botoes{
+    padding: 16px 0px 32px 80px;
+    font-family: var(--fonteprimaria);
+    font-size: 16px;
+    font-weight: 150;
+}
+.texto__transformado{
+    width: 400px;
+    height: 944px;
+    padding: 40px 40px 40px 40px;
+    font-family: var(--fonteprimaria);
+    font-size: 24px;
+    font-weight: 150;
+    color: var(--terceira-cor);
+}
+.rodape{
+    padding: 16px 16px;
+    color: var(--quarta-cor);
+    text-align: center;
+    font-family: var(--fonteprimaria);
+    font-size: 24px;
+    font-weight: 150;
+}
+
+
+
+
+
+
 /* FAÇA AS CONFIGURAÇÕES DE POSICIONAMENTO COM CORES MARCANTES, BORDAS, LETRAS, PARA QUE POSSA FICAR MELHOR DE VISUALIZAR */
