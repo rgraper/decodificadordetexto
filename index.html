@@ -8,24 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <p class="logo"><img class="imagem__logo" src="./assets/Frame 6logo.png" alt="Logo Alura"></p>
+    <header>
+        <h1 > 
+            <a href="index.html" title="Home">
+            <img class="imagem__logo" src="./assets/Frame 6logo.png" alt="Logo Alura"></a>
+        </h1>
+    </header>
     <main class="conteudo">
         <section class="conteudo__texto__botoes">
-            <textarea class="input__texto">TESTE</textarea>
+            <textarea class="input__texto"></textarea>
                 <div class="alerta"> <img src="./assets/bi_exclamation-circle-fillexclamacao.png">
                     Apenas letras minúsculas e sem acentos</div>
                 <div class="botoes">
-                    botoes
+                    <button class="botao__criptografar">CRIPTOGRAFAR</button>
+                    <button class="botao__descriptografar">DESCRIPTOGRAFAR</button>
                </div>
-            </section>
-        <section>
-            <textarea class="texto__transformado">
-
-            </textarea>
         </section>
+                <section class="texto__copiar">
+                <textarea class="texto__transformado"></textarea>
+                <div class="botao">
+                    <button class="botaocopiar">COPIAR</button>
+                </div>
+                </section>
         </main>
 
-    <footer class="rodape">Desenvolvido por Robson Graper</footer>
+    <footer>
+        <div class="rodape">
+        <a class="links" href="https://github.com/rgraper">
+        GitHub
+        </a>
+        <a class="links" href="https://www.linkedin.com/in/robsongraper/">
+        LinkedIn
+        </a>
+        <a class="links" href="https://www.instagram.com/r.graper/">
+        Instagram
+        </a></div>     
+        <p class="texto__rodape">Desenvolvido por Robson Graper</p>
+    </footer>
 </body>
 </html>

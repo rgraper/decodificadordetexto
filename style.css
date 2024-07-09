@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root{
-    --primeira-cor: #9595;
+    --primeira-cor: #e5e5e5;
     --segunda-cor: #0a3871;
     --terceira-cor: #495057;
-    --quarta-cor: #072B61;
     --quinta-cor: #eeeeee;
 
     --fonteprimaria: "Inter", sans-serif;
+    background-color: var(--primeira-cor);
 }
 * {
     margin: 0;
@@ -16,69 +16,158 @@
 header {
     display: flex;
     flex-direction: column;
-    margin: 40px 0 0 40px;
+    margin: 2.5rem 0 0 2.5rem;
 }
-.imagem__logo{
-
+h1:hover {
+    transition: 1.0s;
+    opacity: 80%;
 }
 .body {
     box-sizing: border-box;
-    background-color: var(--primeira-cor)
-}
+    }
 .conteudo{
-    padding: 0px 80px 72px 80px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 80px;
 }
 .conteudo__texto__botoes{
-    padding: 80px 40px 72px 80px;
-}
-.texto{
-    margin: 80px 80px;
-    padding: 80px 0px 395px 80px;
+    padding: 5rem 2.5rem 4.5rem 15rem;
 }
 .input__texto{
-    width: 680px;
-    height: 288px;
+    width: 42.5rem;
+    height: 18rem;
+    padding: 0 0 15rem 0;
     font-family: var(--fonteprimaria);
-    font-size: 32px;
-    font-weight: 150;
+    font-size: 2rem;
+    font-weight: 500;
     color: var(--segunda-cor);
+    background-color: var(--primeira-cor);
+    outline: none;
+    border: none;
+    resize: none;
+    
 }
-
 .alerta{
-    padding: 16px 0px 32px 80px;
+    padding: 1rem 0 1rem 0rem;
     font-family: var(--fonteprimaria);
-    font-size: 12px;
-    font-weight: 150;
+    font-size: 0.75rem;
+    font-weight: 500;
     color: var(--terceira-cor);
 }
 .botoes{
-    padding: 16px 0px 32px 80px;
+    padding: 1rem 0 4.5rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
     font-family: var(--fonteprimaria);
-    font-size: 16px;
-    font-weight: 150;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.botao__criptografar{
+    border: 0.12rem solid var(--segunda-cor); 
+    width: 50%;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 1rem;
+    padding: 21.5px 0px;  
+    text-decoration: none;   
+    color: var(--quinta-cor);
+    font-family: var(--fonteprimaria);
+    font-weight: 500;
+    background-color: var(--segunda-cor);
+}
+.botao__descriptografar{
+    border: 0.12rem solid var(--segunda-cor); 
+    width: 50%;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 1rem;
+    padding: 21.5px 0px;  
+    text-decoration: none;   
+    color: var(--segunda-cor);
+    font-family: var(--fonteprimaria);
+    font-weight: 500;
+    background-color: none;
+}
+.texto__copiar{
+    padding: 5rem 2.5rem 4.5rem 2.5rem;
+    text-align: center;
 }
 .texto__transformado{
-    width: 400px;
-    height: 944px;
-    padding: 40px 40px 40px 40px;
+    width: 25rem;
+    height: 20rem;
+    padding: 0.5rem 0 15rem 0.5rem;
     font-family: var(--fonteprimaria);
-    font-size: 24px;
-    font-weight: 150;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: var(--terceira-cor);
+    outline: none;
+    border: none;
+    resize: none;
+    border-radius: 1rem;
+}
+.botao{
+    padding: 1rem 0 4.5rem 0rem;
+}
+.botaocopiar{
+    border: 0.12rem solid var(--segunda-cor); 
+    width: 50%;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: 1rem;
+    padding: 21.5px 0px;  
+    text-decoration: none;   
+    color: var(--quinta-cor);
+    font-family: var(--fonteprimaria);
+    font-weight: 500;
+    background-color: var(--segunda-cor);
+}
+footer{
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+.links{
+    display: inline;
+    border: 0.12rem solid var(--segunda-cor); 
+    width: 25%;
+    text-align: center;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;  
+    text-decoration: none;   
+    color: var(--quinta-cor);
+    font-family: var(--fonteprimaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: var(--segunda-cor);
 }
 .rodape{
-    padding: 16px 16px;
-    color: var(--quarta-cor);
+    padding: 1rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.1rem;
+    color: var(--segunda-cor);
     text-align: center;
     font-family: var(--fonteprimaria);
-    font-size: 24px;
-    font-weight: 150;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
+.texto__rodape{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    color: var(--segunda-cor);
+    text-align: center;
+    font-family: var(--fonteprimaria);
+    font-size: 1.5rem;
+    font-weight: 500;
+    justify-content: space-between;
+}
 
 
 
