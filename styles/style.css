@@ -4,7 +4,7 @@
     --primeira-cor: #e5e5e5;
     --segunda-cor: #0a3871;
     --terceira-cor: #495057;
-    --quinta-cor: #eeeeee;
+    --quarta-cor: #eeeeee;
 
     --fonteprimaria: "Inter", sans-serif;
     background-color: var(--primeira-cor);
@@ -45,8 +45,10 @@ h1:hover {
     background-color: var(--primeira-cor);
     outline: none;
     border: none;
-    resize: none;
-    
+    resize: none;  
+}
+.input__texto:focus::placeholder {
+    color: transparent;
 }
 .alerta{
     padding: 1rem 0 1rem 0rem;
@@ -73,7 +75,7 @@ h1:hover {
     font-size: 1rem;
     padding: 21.5px 0px;  
     text-decoration: none;   
-    color: var(--quinta-cor);
+    color: var(--quarta-cor);
     font-family: var(--fonteprimaria);
     font-weight: 500;
     background-color: var(--segunda-cor);
@@ -94,7 +96,26 @@ h1:hover {
 .texto__copiar{
     padding: 5rem 2.5rem 4.5rem 2.5rem;
     text-align: center;
+
 }
+.imagem__texto{
+    position: relative;
+    align-items: center;
+    display: flex;
+
+}
+.texto__transformado:placeholder-shown {
+    padding: 0.5rem 0 15rem 0.5rem;
+    background-image: url(../assets/imgplaceholder.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texto__transformado:not(:placeholder-shown) {
+    background-color: white;
+}
+.texto__transformado:focus::placeholder {
+    color: transparent;}
+
 .texto__transformado{
     width: 25rem;
     height: 20rem;
@@ -119,7 +140,7 @@ h1:hover {
     font-size: 1rem;
     padding: 21.5px 0px;  
     text-decoration: none;   
-    color: var(--quinta-cor);
+    color: var(--quarta-cor);
     font-family: var(--fonteprimaria);
     font-weight: 500;
     background-color: var(--segunda-cor);
@@ -138,7 +159,7 @@ footer{
     font-size: 1rem;
     padding: 0.2rem 0.2rem 0.2rem 0.2rem;  
     text-decoration: none;   
-    color: var(--quinta-cor);
+    color: var(--quarta-cor);
     font-family: var(--fonteprimaria);
     font-size: 1.5rem;
     font-weight: 500;

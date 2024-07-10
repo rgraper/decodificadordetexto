@@ -5,33 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador de Texto</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <header>
         <h1 > 
             <a href="index.html" title="Home">
-            <img class="imagem__logo" src="./assets/Frame 6logo.png" alt="Logo Alura"></a>
+            <img class="imagem__logo" src="./assets/logo.png" alt="Logo Alura"></a>
         </h1>
     </header>
     <main class="conteudo">
         <section class="conteudo__texto__botoes">
-            <textarea class="input__texto"></textarea>
-                <div class="alerta"> <img src="./assets/bi_exclamation-circle-fillexclamacao.png">
+            <textarea class="input__texto" placeholder="Digite seu texto"></textarea>
+                <div class="alerta"> <img src="./assets/exclamacao.png">
                     Apenas letras minúsculas e sem acentos</div>
                 <div class="botoes">
-                    <button class="botao__criptografar">CRIPTOGRAFAR</button>
-                    <button class="botao__descriptografar">DESCRIPTOGRAFAR</button>
+                    <button onclick="criptografar()" class="botao__criptografar">CRIPTOGRAFAR</button>
+                    <button onclick="descriptografar()" class="botao__descriptografar">DESCRIPTOGRAFAR</button>
                </div>
         </section>
                 <section class="texto__copiar">
-                <textarea class="texto__transformado"></textarea>
-                <div class="botao">
+                        <textarea class="texto__transformado" placeholder=" "></textarea>
+                    <div class="botao">
                     <button class="botaocopiar">COPIAR</button>
                 </div>
                 </section>
-        </main>
-
+    </main>
     <footer>
         <div class="rodape">
         <a class="links" href="https://github.com/rgraper">
