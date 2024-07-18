@@ -190,7 +190,33 @@ footer{
     justify-content: space-between;
 }
 
-
+@media screen and (max-width: 768px){ 
+    .conteudo{
+        display: block;
+        align-items: center;
+    }
+    .conteudo__texto__botoes{
+        padding: 4rem;
+    }
+    .input__texto{
+        width: 75%;
+    }
+    .botoes{
+        text-align: center;
+    }
+    .botao__criptografar{
+        width: 75%;
+    }
+    .botao__descriptografar{
+        width: 75%;
+    }
+    .texto__transformado{
+        width: 75%;
+    }
+    .links{
+        width: 75%;
+    }
+}
 
 
 
