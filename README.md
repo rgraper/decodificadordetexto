@@ -1,2 +1,2 @@
 <h1>Projeto decodificador de texto</h1>
-<p>Projeto de finalização da primeira parte do curso ONE pela alura, onde criamos uma página responsável por criptografar e descriptografar um texto.</p>
+<p>Projeto de conclusão da primeira etapa do curso ONE oferecido pela Alura, no qual desenvolvemos uma página web dedicada à criptografia e descriptografia de textos. Esta página permite aos usuários transformar e restaurar mensagens de maneira segura e eficiente, demonstrando o conhecimento adquirido durante o curso.</p>
