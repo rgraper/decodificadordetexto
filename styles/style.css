@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 :root{
-    --primeira-cor: #e5e5e5;
-    --segunda-cor: #0a3871;
-    --terceira-cor: #495057;
-    --quarta-cor: #eeeeee;
+    --primeira-cor: #DBE7C9;
+    --segunda-cor: #294B29;
+    --terceira-cor: #789461;
+    --quarta-cor: #E1F0DA;
 
     --fonteprimaria: "Inter", sans-serif;
     background-color: var(--primeira-cor);
@@ -106,7 +106,7 @@ h1:hover {
 }
 .texto__transformado:placeholder-shown {
     padding: 0.5rem 0 15rem 0.5rem;
-    background-image: url(../assets/imgplaceholder.png);
+    background-image: url(../assets/imgplaceholder1.png);
     background-position: center;
     background-repeat: no-repeat;
 }
